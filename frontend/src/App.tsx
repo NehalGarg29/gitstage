@@ -724,7 +724,7 @@ function DashboardPage({ navigateTo }: { navigateTo: (path: string) => void }) {
                       placeholder="e.g. backend-api"
                       value={repoName}
                       onChange={(e) => setRepoName(e.target.value)}
-                      className="w-full bg-dark-950 border border-dark-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500 text-slate-100"
+                      className="w-full bg-white border border-dark-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500 text-black placeholder:text-slate-400"
                     />
                   </div>
 
@@ -737,7 +737,7 @@ function DashboardPage({ navigateTo }: { navigateTo: (path: string) => void }) {
                       required
                       value={ownerUsername}
                       onChange={(e) => setOwnerUsername(e.target.value)}
-                      className="w-full bg-dark-950 border border-dark-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500 text-slate-100"
+                      className="w-full bg-white border border-dark-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500 text-black placeholder:text-slate-400"
                     />
                   </div>
 
@@ -751,7 +751,7 @@ function DashboardPage({ navigateTo }: { navigateTo: (path: string) => void }) {
                       value={localPath}
                       onChange={(e) => setLocalPath(e.target.value)}
                       placeholder="e.g. /app"
-                      className="w-full bg-dark-950 border border-dark-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500 text-slate-100"
+                      className="w-full bg-white border border-dark-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500 text-black placeholder:text-slate-400"
                     />
                     <span className="text-[10px] text-slate-500 mt-1 block">
                       Tip: Use <code className="bg-dark-900 px-1 py-0.5 rounded text-blue-400">/app</code> to self-index GitStage's backend code.
