@@ -46,7 +46,7 @@ interface Source {
   code_content: string;
 }
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080";
 const WS_URL = API_URL.replace("http://", "ws://").replace("https://", "wss://");
 
 export default function App() {
